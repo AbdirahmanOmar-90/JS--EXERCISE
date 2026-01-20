@@ -6,4 +6,4 @@ const car = {
 
 }
 
-
+console.log(car)
