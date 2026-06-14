@@ -12,5 +12,6 @@ console.log('this is blocked consle')
 function getUserData(callback) {
   setTimeout(() => {
     let user = { id: 43, name: 'abdi' }
-  })
+    callback(user)
+  }, 4000)
 }
