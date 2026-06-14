@@ -7,3 +7,9 @@ console.log('jabwabta Kobaad')
 let user = fetchUserDateSync()
 console.log('user data', user)
 console.log('this is blocked consle')
+
+
+//   non bloking//
+function getUserData(callback){
+        
+}
