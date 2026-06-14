@@ -5,3 +5,4 @@ function fetchUserDateSync() {
 }
 console.log('jabwabta Kobaad')
 let user = fetchUserDateSync()
+console.log('user data',user)
