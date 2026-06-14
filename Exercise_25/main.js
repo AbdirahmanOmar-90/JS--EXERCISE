@@ -4,4 +4,4 @@ console.log(newNumbers)
 function sum(...numbers) {
   return numbers.reduce((total, num) => total + num, 0)
 }
-console.log(sum(2, 2, 2, 2))
+console.log(sum(2, 2, 2, 2))              
