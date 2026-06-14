@@ -19,3 +19,4 @@ console.log('FIRST CONSOLE')
 getUserData(function (user) {
   console.log('user')
 })
+console.log('second console')
