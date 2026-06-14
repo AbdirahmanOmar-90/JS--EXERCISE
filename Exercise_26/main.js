@@ -15,3 +15,4 @@ function getUserData(callback) {
     callback(user)
   }, 4000)
 }
+console.log('FIRST CONSOLE')
