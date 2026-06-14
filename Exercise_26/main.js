@@ -16,3 +16,4 @@ function getUserData(callback) {
   }, 4000)
 }
 console.log('FIRST CONSOLE')
+getUserData(function (user) {})
