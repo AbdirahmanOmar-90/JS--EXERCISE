@@ -5,4 +5,5 @@ function fetchUserDateSync() {
 }
 console.log('jabwabta Kobaad')
 let user = fetchUserDateSync()
-console.log('user data',user)
+console.log('user data', user)
+console.log('this is blocked consle')
