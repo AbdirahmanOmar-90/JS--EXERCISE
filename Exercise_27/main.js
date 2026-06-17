@@ -1,13 +1,15 @@
 function fetchUserData() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      let person = true
-      if (person) {
+      let sucess = true
+      if (sucess) {
         resolve({ name: 'abdirahmana', age: 22 })
       } else {
         reject('this fetch failed')
       }
-    }, 9000)
+    }, 1000)
   })
 }
-fetchUserData()
+fetchUserData().then((date) => {
+  console.log('user data', data)
+})
