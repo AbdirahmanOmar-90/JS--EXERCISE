@@ -10,3 +10,4 @@ function fetchUserData() {
     }, 9000)
   })
 }
+fetchUserData()
