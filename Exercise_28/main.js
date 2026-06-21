@@ -5,7 +5,7 @@ function fetchUserData() {
       if (person) {
         resolve({ name: 'ali', age: 55 })
       } else{
-        
+        reject('this fetcuh failed')
       }
     })
   })
