@@ -10,3 +10,4 @@ function fetchUserData() {
     }, 4000)
   })
 }
+async function displayUserData() {}
