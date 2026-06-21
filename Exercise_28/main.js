@@ -1,5 +1,7 @@
 function fetchUserData() {
   return new Promise((resolve, reject) => {
-    setTimeout(() => {})
+    setTimeout(() => {
+      let person = true
+    })
   })
 }
