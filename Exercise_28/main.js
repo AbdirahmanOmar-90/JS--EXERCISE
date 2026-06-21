@@ -11,7 +11,11 @@ function fetchUserData() {
   })
 }
 async function displayUserData() {
-        try{
-                
-        }
+  try {
+    let user = await fetchUserData()
+    console.log(user)
+  } catch (error) {
+    console.log(error)
+  }
 }
+displayUserData()
