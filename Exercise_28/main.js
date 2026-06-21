@@ -4,9 +4,9 @@ function fetchUserData() {
       let person = true
       if (person) {
         resolve({ name: 'ali', age: 55 })
-      } else{
+      } else {
         reject('this fetcuh failed')
       }
-    })
+    }, 4000)
   })
 }
