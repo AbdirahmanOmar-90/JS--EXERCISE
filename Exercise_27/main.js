@@ -7,7 +7,7 @@ function fetchUserData() {
       } else {
         reject('this fetch failed')
       }
-    }, 1000)
+    }, 7000)
   })
 }
 fetchUserData()
