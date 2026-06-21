@@ -2,8 +2,8 @@ function fetchUserData() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       let person = true
-      if(person){
-        
+      if (person) {
+        resolve({ name: 'ali', age: 55 })
       }
     })
   })
