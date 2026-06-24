@@ -1,1 +1,3 @@
-async function fetch() {}
+async function fetch() {
+  console.log('start fetch data')
+}
