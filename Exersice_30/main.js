@@ -12,3 +12,4 @@ function mult(a, b) {
 }
 console.log('iskudarku waa', Oprate(44, 44, add))
 console.log('kala jarku waa', Oprate(30, 20, sup))
+console.log('isku dhufashadu waa', Oprate(30, 2, mult))
