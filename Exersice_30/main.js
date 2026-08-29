@@ -4,3 +4,5 @@ function Oprate(a, b, callback) {
 function add(a, b) {
   return a + b
 }
+
+console.log('iskudarku waa', Oprate(44, 44, add))
