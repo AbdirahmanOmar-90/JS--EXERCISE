@@ -4,13 +4,13 @@ function Oprate(a, b, callback) {
 function add(a, b) {
   return a + b
 }
+
 function sup(a, b) {
   return a - b
 }
 function mult(a, b) {
   return a * b
 }
-
 function div(a, b) {
   return a % b
 }
