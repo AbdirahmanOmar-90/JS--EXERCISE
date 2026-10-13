@@ -4,8 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .colorpreview {
+        height: 200px;
+        width: 200px;
+        border: solid 4px red;
+        margin-top: 10px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
+    <h1>Interactive Color Picker</h1>
+    <label for="color">Chose The Color</label>
+    <input type="color" id="colorPicker" />
+    <div class="colorpreview">Color Previw</div>
+    <h3>clear history</h3>
+    <p id="color-history"></p>
+    <button clear-btn>clear</button>
+
     <script src="main.js"></script>
   </body>
 </html>
